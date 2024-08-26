@@ -1,0 +1,36 @@
+.homeBlogCard {
+  padding: 1rem 0;
+  margin: 2rem 0;
+  max-width: 36rem;
+}
+
+.title {
+  max-width: 50rem;
+}
+
+.title a {
+  font-size: 2rem;
+  font-weight: 600;
+  word-spacing: 0.15rem;
+  color: #100147;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+
+.title .date {
+  color: gray;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.description p {
+  margin: 1rem 0;
+  font-size: 21px;
+  word-spacing: 0.15rem;
+}
+
+.readmore {
+  color: #100147;
+  font-size: 1.5rem;
+  text-decoration: none;
+}

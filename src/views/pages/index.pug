@@ -1,0 +1,37 @@
+extends ../layouts/main.pug
+
+block links 
+  link(rel="stylesheet" href="/css/home.css")
+  link(rel="stylesheet" href="/css/homeBlogCard.css")
+
+
+block content 
+  .container 
+    .home
+      .intro
+        h1.darkergrotesque I'am a Software Engineer and Researcher
+        p.desc.darkergrotesque A passionate software engineer and researcher dedicated to pushing the boundaries of technology and innovation. With a keen interest in Networking, Web development and computer infrastructure. I thrive on solving complex problems and creating impactful solutions.
+      .newsletter
+        img(src="/images/home.jpg" alt="")
+      .blogs 
+        h1.darkergrotesque My recent blogs
+        .blog-container 
+          .blogs-grid 
+            include ../fragments/homeBlogCard
+            include ../fragments/homeBlogCard
+            include ../fragments/homeBlogCard
+            include ../fragments/homeBlogCard
+          .blogs-categories
+            h1.darkergrotesque Categories
+            ul 
+              li 
+                a(href="#") Web development
+              li
+                a(href="#") Software Engineering
+              li
+                a(href="#") Cyber Security
+              li
+                a(href="#") Networking
+
+
+
